@@ -19,7 +19,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Commit
+//@Commit
 @Transactional
 @SpringBootTest
 class ItemRepositoryTest {
