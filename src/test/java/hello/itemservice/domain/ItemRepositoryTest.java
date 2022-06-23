@@ -62,6 +62,7 @@ class ItemRepositoryTest {
     }
 
     @Test
+//    @Commit //실제 SQL문을 확인 할려면 commit 해야함.
     void updateItem() {
         //given
         Item item = new Item("item1", 10000, 10);
